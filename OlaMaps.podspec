@@ -15,15 +15,15 @@ Pod::Spec.new do |s|
     s.ios.deployment_target = '11.0'
   
     # Add all xcframeworks to be included
-    s.vendored_frameworks = [
-      'frameworks/MapLibre.xcframework',
-      'frameworks/MoEngageAnalytics.xcframework',
-      'frameworks/MoEngageCore.xcframework',
-      'frameworks/MoEngageMessaging.xcframework',
-      'frameworks/MoEngageObjCUtils.xcframework',
-      'frameworks/MoEngageSDK.xcframework',
-      'frameworks/MoEngageSecurity.xcframework',
-      'frameworks/OlaMapCore.xcframework'
+    s.ios.vendored_frameworks = [
+      'Frameworks/MapLibre.xcframework',
+      'Frameworks/MoEngageAnalytics.xcframework',
+      'Frameworks/MoEngageCore.xcframework',
+      'Frameworks/MoEngageMessaging.xcframework',
+      'Frameworks/MoEngageObjCUtils.xcframework',
+      'Frameworks/MoEngageSDK.xcframework',
+      'Frameworks/MoEngageSecurity.xcframework',
+      'Frameworks/OlaMapCore.xcframework'
     ]
   
     s.requires_arc = true
