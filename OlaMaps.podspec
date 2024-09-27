@@ -1,10 +1,10 @@
 Pod::Spec.new do |s|
     s.name             = 'OlaMaps'
     s.version          = '1.0.0'
-    s.summary          = 'Ola Maps SDK for iOS is a powerful framework that allows seamless integration of interactive maps and location-based services into iOS applications. It provides essential features like map rendering, custom markers, overlays, and built-in location tools.'
+    s.summary          = 'Ola Maps Pods for iOS enables easy integration of interactive maps with custom markers and location tools for iOS apps.'
   
     s.description      = <<-DESC
-                         The Ola Maps SDK simplifies the process of adding advanced mapping capabilities to your iOS app. Delivered as an easy-to-integrate .xcframework, it provides features like map rendering, location services, and customizable map elements such as markers and overlays. With tools like current location buttons and zoom controls, the SDK enables developers to build rich, location-based experiences. Ideal for ride-hailing, logistics, or any location-focused app, the Ola Maps SDK is designed for fast integration and performance.
+                         The Ola Maps Pods simplifies the process of adding advanced mapping capabilities to your iOS app. Delivered as an easy-to-integrate .xcframework, it provides features like map rendering, location services, and customizable map elements such as markers and overlays. With tools like current location buttons and zoom controls, the SDK enables developers to build rich, location-based experiences. Ideal for ride-hailing, logistics, or any location-focused app, the Ola Maps SDK is designed for fast integration and performance.
                          DESC
   
     s.homepage         = 'https://github.com/wadhia-yash/ola-maps-pods'
@@ -16,14 +16,14 @@ Pod::Spec.new do |s|
   
     # Add all xcframeworks to be included
     s.vendored_frameworks = [
-      'Frameworks/MapLibre.xcframework',
-      'Frameworks/MoEngageAnalytics.xcframework',
-      'Frameworks/MoEngageCore.xcframework',
-      'Frameworks/MoEngageMessaging.xcframework',
-      'Frameworks/MoEngageObjCUtils.xcframework',
-      'Frameworks/MoEngageSDK.xcframework',
-      'Frameworks/MoEngageSecurity.xcframework',
-      'Frameworks/OlaMapCore.xcframework'
+      'frameworks/MapLibre.xcframework',
+      'frameworks/MoEngageAnalytics.xcframework',
+      'frameworks/MoEngageCore.xcframework',
+      'frameworks/MoEngageMessaging.xcframework',
+      'frameworks/MoEngageObjCUtils.xcframework',
+      'frameworks/MoEngageSDK.xcframework',
+      'frameworks/MoEngageSecurity.xcframework',
+      'frameworks/OlaMapCore.xcframework'
     ]
   
     s.requires_arc = true
