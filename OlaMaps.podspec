@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
     s.homepage         = 'https://github.com/wadhia-yash/ola-maps-pods'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'Yash Wadhia' => 'wadhiayash@gmail.com' }
-    s.source           = { :git => 'https://github.com/wadhia-yash/ola-maps-pods.git', :tag => s.version.to_s }
+    s.source           = { :git => 'https://github.com/wadhia-yash/ola-maps-pods.git', :tag => 'v1.0.0-alpha' }
   
     s.ios.deployment_target = '11.0'
   
